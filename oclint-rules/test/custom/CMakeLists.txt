@@ -1,0 +1,9 @@
+
+BUILD_TEST(CustomRuleNameRuleTest
+CustomRuleNameRuleTest.cpp)
+
+BUILD_TEST(HdwTestRuleRuleTest
+HdwTestRuleRuleTest.cpp)
+
+BUILD_TEST(ViewCtrlMustHavePageIDRuleTest
+ViewCtrlMustHavePageIDRuleTest.cpp)

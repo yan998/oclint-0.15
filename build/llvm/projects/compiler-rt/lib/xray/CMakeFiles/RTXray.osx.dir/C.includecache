@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_asm.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/xray/xray_trampoline_x86_64.S
+../builtins/assembly.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+../sanitizer_common/sanitizer_asm.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_asm.h
+

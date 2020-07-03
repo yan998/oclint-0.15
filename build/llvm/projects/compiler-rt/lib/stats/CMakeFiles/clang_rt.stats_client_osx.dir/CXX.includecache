@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_internal_defs.h
+sanitizer_platform.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_platform.h
+sanitizer_win_defs.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_win_defs.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_platform.h
+TargetConditionals.h
+-
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_win_defs.h
+sanitizer_platform.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_platform.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/stats/stats.h
+sanitizer_common/sanitizer_internal_defs.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/stats/sanitizer_common/sanitizer_internal_defs.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/stats/stats_client.cc
+windows.h
+-
+dlfcn.h
+-
+stdint.h
+-
+stdio.h
+-
+sanitizer_common/sanitizer_internal_defs.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/stats/sanitizer_common/sanitizer_internal_defs.h
+stats/stats.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/stats/stats/stats.h
+

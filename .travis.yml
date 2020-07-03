@@ -1,0 +1,98 @@
+language: cpp
+
+matrix:
+  include:
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="test" MODULE="core"
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="test" MODULE="metrics"
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="test" MODULE="rules" DEP="core metrics"
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="test" MODULE="reporters" DEP="core"
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="test" MODULE="driver" DEP="core"
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="build"
+    - os: linux
+      dist: bionic
+      sudo: required
+      env: BUILD="docgen"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="test" MODULE="core"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="test" MODULE="metrics"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="test" MODULE="rules" DEP="core metrics"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="test" MODULE="reporters" DEP="core"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="test" MODULE="driver" DEP="core"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="build"
+    - os: osx
+      osx_image: xcode11.1
+      env: BUILD="docgen"
+
+before_install:
+- if [ "$TRAVIS_OS_NAME" == "linux" ]; then
+    sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y;
+    sudo apt-get update -q;
+    sudo apt-get install gcc-7 g++-7 -y --allow-unauthenticated;
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 50;
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 50;
+  fi
+- if [ "$TRAVIS_OS_NAME" == "osx" ]; then
+    brew update;
+    brew install pyenv;
+    eval "$(pyenv init -)";
+    pyenv install 2.7.6;
+    pyenv global 2.7.6;
+    pyenv rehash;
+    pip install cpp-coveralls;
+    pyenv rehash;
+  else
+    sudo pip install --upgrade cpp-coveralls;
+  fi
+- if [ "$TRAVIS_OS_NAME" == "osx" ]; then
+    brew install ninja;
+  else
+    sudo apt-get install ninja-build -y;
+  fi
+
+script:
+  - cd oclint-scripts
+  - ./travis $BUILD $MODULE $DEP
+  - cd ..
+
+after_success:
+  - if [ $BUILD == test ] && [ $MODULE != driver ]; then
+      if [ $TRAVIS_OS_NAME == osx ]; then
+        coveralls --gcov $PWD/build/llvm-install/bin/llvm-cov --gcov-options gcov --include oclint-${MODULE}/ --exclude oclint-${MODULE}/test;
+      else
+        coveralls --include oclint-${MODULE}/ --exclude oclint-${MODULE}/test;
+      fi
+    fi
+
+addons:
+  artifacts:
+    paths:
+      - $(ls build/oclint-*.tar.gz)

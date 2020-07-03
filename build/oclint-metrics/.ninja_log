@@ -1,0 +1,6 @@
+# ninja log v5
+1	3345	1582260803847840654	lib/CMakeFiles/OCLintMetric.dir/NPathComplexityMetric.cpp.o	4d1e8b2fd0bacc11
+0	3362	1582260803862651198	lib/CMakeFiles/OCLintMetric.dir/NcssMetric.cpp.o	ce2cbd8720ea265d
+1	3387	1582260803893393082	lib/CMakeFiles/OCLintMetric.dir/StmtDepthMetric.cpp.o	9a21fc3fcffaa8be
+0	7937	1582260808439440143	lib/CMakeFiles/OCLintMetric.dir/CyclomaticComplexityMetric.cpp.o	be4aa8d3487308ea
+7937	7997	1582260808522545000	lib/libOCLintMetric.a	151b09f9df194371

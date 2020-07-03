@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/sanitizer_common/sanitizer_asm.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/tsan/rtl/tsan_rtl_aarch64.S
+sanitizer_common/sanitizer_asm.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/tsan/rtl/sanitizer_common/sanitizer_asm.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/tsan/rtl/tsan_rtl_amd64.S
+sanitizer_common/sanitizer_asm.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/tsan/rtl/sanitizer_common/sanitizer_asm.h
+

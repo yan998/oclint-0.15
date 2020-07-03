@@ -1,0 +1,15 @@
+# ninja log v5
+3	462	1582260987018580606	lib/CMakeFiles/OCLintDriver.dir/GenericException.cpp.o	5860108ff8166967
+1	830	1582260987384544973	CMakeFiles/oclint-0.15.dir/rules_dlfcn_port.cpp.o	aea2cc810e66935a
+0	968	1582260987523654659	CMakeFiles/oclint-0.15.dir/reporters_dlfcn_port.cpp.o	6d3216812718146b
+463	1099	1582260987656036281	lib/CMakeFiles/OCLintDriver.dir/Logger.cpp.o	a61cf4c6ea3987b9
+1	1988	1582260988538180012	lib/CMakeFiles/OCLintDriver.dir/ConfigFile.cpp.o	7beb2cdedaa750a6
+1	2027	1582260988578994293	lib/CMakeFiles/OCLintDriver.dir/DiagnosticDispatcher.cpp.o	73dc7d17cd0a5565
+1099	2130	1582260988686267760	lib/CMakeFiles/OCLintDriver.dir/RulesetFilter.cpp.o	80abedc3f5d23567
+831	3437	1582260989989155762	lib/CMakeFiles/OCLintDriver.dir/Options.cpp.o	510f6bc41e4fe495
+0	3465	1582260990014466044	CMakeFiles/oclint-0.15.dir/main.cpp.o	1c0bd52ad9a6599
+1	5128	1582260991668160143	lib/CMakeFiles/OCLintDriver.dir/CompilerInstance.cpp.o	68a91b918edaee51
+968	5174	1582260991720138269	lib/CMakeFiles/OCLintDriver.dir/RulesetBasedAnalyzer.cpp.o	55db7208a50c56c
+2	7130	1582260993671095807	lib/CMakeFiles/OCLintDriver.dir/Driver.cpp.o	4457fe8fb262412
+7130	7199	1582260993763553000	lib/libOCLintDriver.a	47b795660b91d523
+7199	8580	1582260994998801274	bin/oclint-0.15	1748982724a9afb5

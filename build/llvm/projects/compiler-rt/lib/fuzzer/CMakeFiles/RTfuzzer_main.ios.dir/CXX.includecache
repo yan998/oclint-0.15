@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/fuzzer/FuzzerDefs.h
+cassert
+-
+cstddef
+-
+cstdint
+-
+cstring
+-
+string
+-
+vector
+-
+set
+-
+memory
+-
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/fuzzer/FuzzerMain.cpp
+FuzzerDefs.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/fuzzer/FuzzerDefs.h
+

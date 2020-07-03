@@ -1,0 +1,11 @@
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/CMakeFiles/rebuild_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/CMakeFiles/edit_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/CMakeFiles/intrinsics_gen.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/rebuild_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/edit_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/PMDReporter.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/XcodeReporter.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/JSONReporter.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/XMLReporter.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/HTMLReporter.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-reporters/reporters/CMakeFiles/TextReporter.dir

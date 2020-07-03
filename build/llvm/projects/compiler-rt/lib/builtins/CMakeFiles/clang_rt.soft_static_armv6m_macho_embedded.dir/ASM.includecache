@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/arm/addsf3.S
+../assembly.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/arm/comparesf2.S
+../assembly.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/arm/divsi3.S
+../assembly.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/arm/udivsi3.S
+../assembly.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/projects/compiler-rt/lib/builtins/assembly.h
+

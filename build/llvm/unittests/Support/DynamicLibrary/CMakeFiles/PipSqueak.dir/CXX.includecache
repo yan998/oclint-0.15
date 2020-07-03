@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/unittests/Support/DynamicLibrary/ExportedFuncs.cpp
+PipSqueak.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/unittests/Support/DynamicLibrary/PipSqueak.h
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/unittests/Support/DynamicLibrary/PipSqueak.cpp
+PipSqueak.h
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/unittests/Support/DynamicLibrary/PipSqueak.h
+ExportedFuncs.cpp
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/unittests/Support/DynamicLibrary/ExportedFuncs.cpp
+
+/Users/wangyan/Documents/OCLint/oclint-0.15/llvm/unittests/Support/DynamicLibrary/PipSqueak.h
+string
+-
+vector
+-
+string
+-
+vector
+-
+

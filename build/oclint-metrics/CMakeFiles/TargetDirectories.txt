@@ -1,0 +1,6 @@
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-metrics/CMakeFiles/rebuild_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-metrics/CMakeFiles/edit_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-metrics/CMakeFiles/intrinsics_gen.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-metrics/lib/CMakeFiles/rebuild_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-metrics/lib/CMakeFiles/edit_cache.dir
+/Users/wangyan/Documents/OCLint/oclint-0.15/build/oclint-metrics/lib/CMakeFiles/OCLintMetric.dir
